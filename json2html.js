@@ -1,5 +1,5 @@
 // json2html.js
-import json2html from "https://KhushiBaurasi.github.io/json2html.js";
+
 export default function json2html(data) {
     const columns = ["Name", "Age", "Gender"];
     const headerRow = columns.map(col => `<th>${col}</th>`).join("");
